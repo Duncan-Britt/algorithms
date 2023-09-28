@@ -1,0 +1,4 @@
+* Huffman Encoding
+
+#+CAPTION: Demo of Huffman Encoding in Scala
+[[huffman-encoding/huffman.gif]]
