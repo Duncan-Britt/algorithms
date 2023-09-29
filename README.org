@@ -1,11 +1,15 @@
 * Algorithms
 As of Fall 2023 I'm taking Algorithms at CU Boulder. This repository is a showcase of my implementations of the algorithms we are studying.
+** Contents
+- [[*\[\[Dijkstra/src.scala\]\[Dijkstra's Shortest Path\]\]][Dijkstra's Shortest Path]]
+- [[*\[\[huffman-encoding/src.scala\]\[Huffman Encoding\]\]][Huffman Encoding]]
 ** [[huffman-encoding/src.scala][Huffman Encoding]]
 
 #+CAPTION: Demo of Huffman Encoding in Scala
 [[huffman-encoding/huffman.gif]]
 
-A sample of the source code:
+<details>
+<summary>A sample of the source code:</summary>
 #+BEGIN_SRC scala
   def huffman_tree(s: String): Frq = {
     val pq = new PriorityQueue[Frq]()(OrderFrq)
@@ -31,6 +35,7 @@ A sample of the source code:
     return pq.dequeue
   }
 #+END_SRC
+</details>
 ** [[Dijkstra/src.scala][Dijkstra's Shortest Path]]
 *** Problem
 You have three batteries, with capacities of 40, 25, and 16 Ah (Amp-hours), respectively. The 25 and 16-Ah batteries are fully charged (containing 25 Ah and 16 Ah, respectively), while the 40-Ah battery is empty, with 0 Ah. You have a battery transfer device which has a “source” battery position and a “target” battery position. When you place two batteries in the device, it instantaneously transfers as many Ah from the source battery to the target battery as possible. Thus, this device stops the transfer either when the source battery has no Ah remaining or when the destination battery is fully charged (whichever comes first).
@@ -41,5 +46,4 @@ The goal in this problem is to determine whether there exists a sequence of tran
 
 *** Solution
 [[Dijkstra/Dijkstra.gif]]
-
 
