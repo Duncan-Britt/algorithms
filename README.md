@@ -1,8 +1,9 @@
 # Algorithms
 As of Fall 2023 I'm taking Algorithms at CU Boulder. This repository is a showcase of my implementations of the algorithms we are studying.
 <details>
-<summary><b><u><font size="+10">Huffman Encoding</font></u></b></summary>
-![](huffman-encoding/huffman.gif)
+<summary><b><u><font size="+20">Huffman Encoding</font></u></b></summary>
+
+<img src="huffman-encoding/huffman.gif" alt="huffman encoding code demo"/>
 
 <details>
 <summary>A sample of the source code:</summary>
