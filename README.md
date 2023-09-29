@@ -6,7 +6,8 @@ As of Fall 2023 I'm taking Algorithms at CU Boulder. This repository is a showca
 
 <details>
 <summary><b><u><font size="+1">A sample of the source code:</font></u></b></summary>
-``` scala
+
+```scala
   def huffman_tree(s: String): Frq = {
     val pq = new PriorityQueue[Frq]()(OrderFrq)
 
