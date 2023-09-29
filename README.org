@@ -8,9 +8,10 @@ As of Fall 2023 I'm taking Algorithms at CU Boulder. This repository is a showca
 #+CAPTION: Demo of Huffman Encoding in Scala
 [[huffman-encoding/huffman.gif]]
 
+#+BEGIN_EXPORT markdown
 <details>
 <summary>A sample of the source code:</summary>
-#+BEGIN_SRC scala
+``` scala
   def huffman_tree(s: String): Frq = {
     val pq = new PriorityQueue[Frq]()(OrderFrq)
 
@@ -34,8 +35,9 @@ As of Fall 2023 I'm taking Algorithms at CU Boulder. This repository is a showca
 
     return pq.dequeue
   }
-#+END_SRC
+```
 </details>
+#+END_EXPORT
 ** [[Dijkstra/src.scala][Dijkstra's Shortest Path]]
 *** Problem
 You have three batteries, with capacities of 40, 25, and 16 Ah (Amp-hours), respectively. The 25 and 16-Ah batteries are fully charged (containing 25 Ah and 16 Ah, respectively), while the 40-Ah battery is empty, with 0 Ah. You have a battery transfer device which has a “source” battery position and a “target” battery position. When you place two batteries in the device, it instantaneously transfers as many Ah from the source battery to the target battery as possible. Thus, this device stops the transfer either when the source battery has no Ah remaining or when the destination battery is fully charged (whichever comes first).
