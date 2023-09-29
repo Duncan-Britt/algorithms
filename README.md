@@ -1,11 +1,11 @@
 # Algorithms
 As of Fall 2023 I'm taking Algorithms at CU Boulder. This repository is a showcase of my implementations of the algorithms we are studying.
 <details>
-<summary>Huffman Encoding</summary>
+<summary><b><u><font size="+10">Huffman Encoding</font></u></b></summary>
 ![](huffman-encoding/huffman.gif)
 
 <details>
-<summary><b><u><font size="+1">A sample of the source code:</font></u></b></summary>
+<summary>A sample of the source code:</summary>
 
 ```scala
   def huffman_tree(s: String): Frq = {
