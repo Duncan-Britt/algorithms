@@ -29,5 +29,6 @@ The goal in this problem is to determine whether there exists a sequence of tran
 [[Dijkstra/Dijkstra.gif]]
 
 ** [[A-Star/grid.c][A*]]
-This implementation of A* is actually ported from a program I wrote for Arduino, and seeks to minimize memory consumption by bitmasking an occupancy grid.
+I originally wrote this implementation of A* to run on an Arduino, well before taking Algorithms, but I thought I should include it here. Writing for arduino influenced my design choices. For instance, I minimized memory consumption by bitmasking the occupancy grid.
+
 [[A-Star/A-Star.gif]]
