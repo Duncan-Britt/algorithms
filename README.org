@@ -35,4 +35,4 @@ I originally wrote this implementation of A* to run on an Arduino, well before t
 [[A-Star/A-Star.gif]]
 
 ** [[merge-sort/sort.h][Merge Sort]]
-[[merge-sort/sort.gif]]
+[[merge-sort/merge-sort.gif]]
